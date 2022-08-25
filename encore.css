@@ -1,0 +1,109 @@
+body{
+  /* background-color: #cac6c1; */
+  /* background: linear-gradient(110deg, #b7b0ba 40%, #cac6c1 60%); */
+  /* background-image: url("/Users/c/Desktop/coding_nerd_stuff/atom_files/artnet_live_music_page/images/gradient(1).png"); */
+  background: linear-gradient(0.25turn, #b7b0ba 43%, #b7b0ba, #cac6c1 62%);
+  color: white;
+  height: 100%;
+  /* font-family: neue-haas-grotesk-display, sans-serif; */
+}
+
+
+
+.def {
+  width: 100%;
+  color: white;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  text-shadow: 0px 0px 10px white;
+  letter-spacing: 10px;
+  z-index: 4;
+  font-size: 0.9em;
+  text-align:center 58
+}
+
+.title {
+  color: white;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  text-shadow: 0px 0px 10px white;
+  letter-spacing: 10px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.nav {
+  color: white;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  text-shadow: 0px 0px 10px white;
+  letter-spacing: 10px;
+  font-size: 0.9em;
+  text-align: center;
+
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.bg-logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  place-content: center;
+  position: absolute;
+  z-index: -2;
+}
+
+img.encore-logo {
+  max-height: 60%;
+  max-width: 100%;
+  object-fit: cover;
+  opacity: 65%;
+}
+
+.svelte-1go8vjv{
+  height: 55px;
+}
+
+
+#bottom_menu.socials {
+  /* position: relative;
+  display: inline-block;
+  object-fit: cover;
+  text-align:center;
+  left: 320px; */
+  color: white;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  text-shadow: 0px 0px 10px white;
+  letter-spacing: 1px;
+  font-size: 0.9em;
+  text-align:center;
+}
+
+/* social media img links */
+
+.youtube {
+  height: 15px;
+  width: auto;
+  text-decoration: none;
+}
+
+.twitch {
+  height: 15px;
+  width: auto;
+}
+
+.twitter {
+  height: 15px;
+  width: auto;
+}
+
+.insta {
+  height: 15px;
+  width: auto;
+}
+
+.yt, .ig, .tw, .twt {
+  text-decoration: none;
+}
